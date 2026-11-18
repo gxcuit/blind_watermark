@@ -1,0 +1,14 @@
+# Downloaded model weights and third-party checkout
+/models/
+/upstream/
+*.pth
+*.pth.part
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+
+# Local experiment results and Python caches
+/outputs*/
+*.log
+__pycache__/

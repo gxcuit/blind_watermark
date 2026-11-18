@@ -1,0 +1,56 @@
+{
+  "source_commit": "f12875a9b5e711e0c6e2dc3a22aca18231ce4a1a",
+  "checkpoint_sha256": "0c5665cff20eb6ce1b5aaa7d91c19dafb418bfee32d02dd3344e4ed60d9d75bd",
+  "original_sha256": "17bed8cfeb5534351d2f35d4addd9407e0c0132132444276a0f826c7ae9923c2",
+  "device": "cpu",
+  "threads": 4,
+  "original_wh": [
+    738,
+    1108
+  ],
+  "crop_ltrb": [
+    0,
+    395,
+    738,
+    1108
+  ],
+  "crop_remaining_area": 0.6435018050541517,
+  "raw256_crop_exact": {
+    "success": 0,
+    "trials": 5
+  },
+  "rs64_crop_exact": {
+    "success": 3,
+    "trials": 5
+  },
+  "bch64_crop_exact": {
+    "success": 20,
+    "trials": 20
+  },
+  "bch_encoding": "BCH(255,99), d=47, t=23: 64-bit ID + CRC32 + 3 zero bits; 255-bit codeword + 1 unused bit. External to PixelSeal.",
+  "bch_crop_bit_errors": [
+    12,
+    12,
+    7,
+    13,
+    15,
+    14,
+    7,
+    10,
+    8,
+    2,
+    8,
+    11,
+    12,
+    16,
+    5,
+    11,
+    7,
+    16,
+    13,
+    12
+  ],
+  "bch_psnr_rgb_db_median": 46.894165742575424,
+  "bch_crop_detect_and_ecc_seconds_median": 0.3859731950000196,
+  "limits": "One image, fixed crop, different random IDs. Additional transforms use one ID only; no general success rate established."
+}
